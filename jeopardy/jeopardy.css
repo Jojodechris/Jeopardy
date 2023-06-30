@@ -18,16 +18,19 @@ button{
 }
 table, th, td {
   border: 1px solid;
+
 }
 
 th{
   height:90px;
   width: 70px;
+
 }
 
 td{
   height:70px;
   width: 70px;
+  color:rgb(239, 225, 206)
 }
 
 table{
@@ -41,3 +44,20 @@ table{
 tbody{
   background-color: blue;
 }
+
+#loading {
+ 
+  border: 8px solid #f3f3f3; 
+  border-top: 8px solid #1171b0; 
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+  margin: 200px auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
